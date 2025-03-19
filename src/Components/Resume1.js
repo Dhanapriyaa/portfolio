@@ -7,10 +7,11 @@ const Resume = () => {
     <div className="section-box">
       <h1>My Resume</h1>
       <center>
-      <img src={Priyaa} alt="Profile" width={300} height={300} />
+      <img src={Priyaa} alt="Profile" width={600} height={800} />
       </center>
     </div>
   );
 };
 
 export default Resume;
+

@@ -4,7 +4,7 @@ import Priyaa from '../assests/photo.jpeg.jpg'
 const About = () => {
   return (
     <div className="about-container">
-      <h1><ul>About Me</ul></h1>
+      <h1><ul>DHANAPRIYAA S A</ul></h1>
       <img src={Priyaa} alt="Profile" width={300} height={300} />
 
       <p>

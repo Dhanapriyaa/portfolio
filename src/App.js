@@ -33,6 +33,7 @@ import Projects from "./Components/Project";
 import Contact from "./Components/Contact";
 import Resume1 from "./Components/Resume1";
 import Blog from "./Components/Blog";
+import FloatingScreen from "./Components/FloatingScreen";
 
 
 
@@ -49,10 +50,14 @@ const App = () => {
         <Route path="/contact" element={<Contact />} />
         <Route path="/Resume1" element={<Resume1 />} />
         <Route path="/Blog" element={<Blog />} />
-        
-
-        
+        <Route path="/FloatingScreen" element={<FloatingScreen />} />                
       </Routes>
+
+      <div>
+      <FloatingScreen />
+      <h1>My Portfolio</h1>
+      <p>Welcome to my website.</p>
+    </div>
     </Router>
   );
 };
