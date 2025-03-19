@@ -3,7 +3,7 @@ body {
     font-family:monospace;
     margin: 0;
     padding: 0;
-    background-image: url('C:\portfolio\priyaa_portfolio\src\assests\background.3jpg.avif');
+    background-image: url('assests/background.jpeg');
     background-size: contain;
     background-position: center;
     background-attachment: fixed;
